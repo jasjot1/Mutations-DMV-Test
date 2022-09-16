@@ -25,7 +25,7 @@ for x in range(5):
     lname = parse_json['last_name']
     ssn = parse_json['social_insurance_number']
     dob = parse_json['date_of_birth']
-    dl = parse_json['social_insurance_number'] #api doesn't give DL number
+    dl = parse_json['social_insurance_number'] #api doesn't give DL number so I just used social security for now
     phone = parse_json['phone_number']
     street = parse_json['address']['street_address']
     city = parse_json['address']['city']
